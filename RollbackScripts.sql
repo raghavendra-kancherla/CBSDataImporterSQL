@@ -1,0 +1,11 @@
+USE CRM
+GO
+
+DROP PROC IF EXISTS SavePlayers
+
+DROP TABLE IF EXISTS dbo.Player
+
+DROP TABLE IF EXISTS dbo.Sport
+
+DROP TYPE IF EXISTS  dbo.PlayerUdt
+
